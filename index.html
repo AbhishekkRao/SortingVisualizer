@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Visualiser - Abhishek Rao</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.css" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <nav class="navbar">
+        <h1>Sorting Visualiser</h1>
+
+        <div class="settings">
+            <div class="sortingMethod">
+                <button class="btn btn-dark" style="background-color: black;" onclick="newArray()">Generate New
+                    Array</button>
+                <button class="btn btn-dark" style="background-color: black;" onclick="bubble()">Bubble Sort</button>
+                <button class="btn btn-dark" style="background-color: black;" onclick="insertion()">Insertion
+                    Sort</button>
+                <button class="btn btn-dark" style="background-color: black;" onclick="selection()">Selection
+                    Sort</button>
+                <button class="btn btn-dark" style="background-color: black;" onclick="quick()">Quick Sort</button>
+                <span id="sliderRange"></span>
+            </div>
+            <div class="arraySS">
+                <label class="labels">Array Size </label>
+                <input type="range" min="10" max="50" value="15" class="slider" id="arraySize">
+                <label class="labels">Sort Speed (Fast to Slow) </label>
+                <input type="range" min="10" max="50" step="10" value="20" class="slider" id="sortSpeed">
+            </div>
+        </div>
+
+    </nav>
+
+    <section>
+
+        <div id="Info_Cont1">
+
+            <h3>TIME COMPLEXITY</h3>
+
+            <div class="Complexity_Containers" id="Time_Complexity_Types_Container">
+
+                <div class="Pair_Definitions">
+                    <p class="Sub_Heading">Worst case:</p>
+                    <p id="Time_Worst"></p>
+                </div>
+
+                <div class="Pair_Definitions">
+                    <p class="Sub_Heading">Average case:</p>
+                    <p id="Time_Average"></p>
+                </div>
+
+                <div class="Pair_Definitions">
+                    <p class="Sub_Heading">Best case:</p>
+                    <p id="Time_Best"></p>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="elements">
+            <canvas id="myCanvas"></canvas>
+        </div>
+
+        </div>
+
+        <div id="Info_Cont2">
+
+            <h3>SPACE COMPLEXITY</h3>
+
+            <div class="Complexity_Containers" id="Space_Complexity_Types_Container">
+
+                <div class="Pair_Definitions">
+                    <p class="Sub_Heading">Worst case:</p>
+                    <p id="Space_Worst"></p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <script src="./scripts/math.js"></script>
+    <script src="./scripts/column.js"></script>
+    <script src="./scripts/script.js"></script>
+</body>
+
+</html>

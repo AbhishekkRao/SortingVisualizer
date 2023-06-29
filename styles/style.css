@@ -1,0 +1,90 @@
+* {
+    font-family: 'Poppins';
+    font-size: 16px;
+    color: black;
+}
+
+h1 {
+    margin: 4%;
+    text-align: center;
+    color: white;
+}
+
+.navbar {
+    background-color: rgb(96, 56, 56);
+}
+
+/* ARRAY AND DEETS */
+
+.slider {
+    background: #000000;
+    border-radius: 10px;
+    height: 10px;
+    -webkit-appearance: none;
+}
+
+.labels {
+    color: white;
+    margin-left: 5%;
+}
+
+.sort {
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+}
+
+.elements {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.settings {
+    margin-top: 1%;
+    margin-right: 2%;
+}
+
+.arraySS {
+    margin-top: 2%;
+    color: white;
+}
+
+section {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 20% 60% 20%;
+    grid-template-columns: 20% 60% 20%;
+    margin-top: 5%;
+}
+
+.Complexity_Containers {
+    margin-top: 20%;
+}
+
+.Pair_Definitions {
+    margin-top: 20%;
+}
+
+.Pair_Definitions p {
+    display: inline;
+}
+
+p.Sub_Heading {
+    font-size: medium;
+    text-transform: none;
+}
+
+#Info_Cont1 {
+    padding: 20% 10%;
+}
+
+#array_container {
+    display: flex;
+    width: 100%;
+    height: 70vh;
+}
+
+#Info_Cont2 {
+    padding: 20% 10%;
+}
