@@ -1,5 +1,7 @@
 # Sorting Visualizer
 
+Live Demo: [https://abhishekkrao.github.io/SortingVisualizer/](https://abhishekkrao.github.io/SortingVisualizer/)
+
 Sorting Visualizer is a web page that showcases the inner workings of various sorting algorithms. It provides an interactive environment for users to observe the sorting process and gain insights into how different algorithms perform.
 
 ## Implemented Algorithms
